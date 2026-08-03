@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contacte a Aercos para conversar sobre proyectos de arquitectura, ingeniería y gestión BIM con coordinación técnica, precisión y control en cada etapa.">
+    <title>Aercos | Contacto para proyectos de arquitectura e ingeniería</title>
+    <link rel="canonical" href="https://aercos.ch/contacto.html">
+    <link rel="icon" type="image/png" href="img/logo-aercos.png">
+    <meta property="og:title" content="Aercos | Contacto para proyectos de arquitectura e ingeniería">
+    <meta property="og:description" content="Contacte a Aercos para conversar sobre proyectos de arquitectura, ingeniería y gestión BIM con coordinación técnica, precisión y control en cada etapa.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://aercos.ch/img/og-image.jpg">
+    <meta property="og:url" content="https://aercos.ch/contacto.html">
+    <meta property="og:site_name" content="Aercos">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aercos | Contacto para proyectos de arquitectura e ingeniería">
+    <meta name="twitter:description" content="Contacte a Aercos para conversar sobre proyectos de arquitectura, ingeniería y gestión BIM con coordinación técnica, precisión y control en cada etapa.">
+    <meta name="twitter:image" content="https://aercos.ch/img/og-image.jpg">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+    <header class="site-header" data-header>
+      <div class="container header__inner">
+        <a class="brand" href="/" aria-label="Aercos, inicio"><img src="img/logo-aercos.png" alt="Aercos" width="300" height="108"></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle><span class="visually-hidden">Abrir menú de navegación</span><span></span><span></span></button>
+        <nav class="site-nav" id="site-navigation" aria-label="Navegación principal" data-nav><a href="/">Inicio</a><a href="empresa.html">Empresa</a><a href="soluciones.html">Soluciones</a><a href="tecnologias.html">Tecnologías</a><a class="nav-contact is-active" href="contacto.html" aria-current="page">Contacto <span aria-hidden="true">↗</span></a></nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="page-hero" aria-labelledby="contacto-title">
+        <div class="container page-hero__content reveal"><p class="eyebrow">Contacto</p><h1 id="contacto-title">Conversemos sobre su <em>proyecto.</em></h1><p class="page-hero__lead">Estamos disponibles para conocer sus necesidades y proponer una estrategia adecuada para su proyecto.</p></div>
+      </section>
+
+      <section class="section" aria-labelledby="formulario-title">
+        <div class="container contact-grid">
+          <form class="contact-form reveal" id="formulario" action="https://formspree.io/f/xnjeekke" method="post">
+            <div><p class="eyebrow">Solicitud de contacto</p><h2 id="formulario-title">Inicie una conversación.</h2></div>
+            <input type="hidden" name="origen" value="Sitio web de Aercos">
+            <div class="honeypot" aria-hidden="true"><label for="website">Sitio web</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+            <div class="form-row"><div class="form-field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name" required></div><div class="form-field"><label for="empresa">Empresa</label><input id="empresa" name="empresa" type="text" autocomplete="organization"></div></div>
+            <div class="form-row"><div class="form-field"><label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" autocomplete="email" required></div><div class="form-field"><label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" autocomplete="tel"></div></div>
+            <div class="form-field"><label for="asunto">Asunto</label><select id="asunto" name="asunto" required><option value="" selected disabled>Seleccione un asunto</option><option value="Arquitectura">Arquitectura</option><option value="Ingeniería">Ingeniería</option><option value="Gestión BIM">Gestión BIM</option><option value="Consulta general">Consulta general</option></select></div>
+            <div class="form-field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" required></textarea></div>
+            <p class="form-status" role="status" aria-live="polite" data-form-status hidden></p>
+            <button class="button button--primary" type="submit" data-form-submit>Enviar consulta <span aria-hidden="true">→</span></button>
+          </form>
+
+          <aside class="contact-info reveal" aria-labelledby="informacion-title">
+            <div><p class="eyebrow">Contacto directo</p><h2 id="informacion-title">Información institucional.</h2></div>
+            <div class="contact-detail"><span>Correo</span><p><a href="mailto:info@aercos.ch">info@aercos.ch</a></p></div>
+            <div class="contact-detail"><span>Teléfono</span><p><a href="tel:+51945546809">+51 945 546 809</a></p></div>
+            <div class="contact-detail"><span>Ubicación</span><p>Lima, Perú</p></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section--dark contact-cta" aria-labelledby="contacto-cta-title">
+        <div class="container cta__grid reveal"><p class="section-number">01 <span>Contacto</span></p><div><p class="eyebrow">Siguiente paso</p><h2 id="contacto-cta-title">Toda buena coordinación comienza con una <em>conversación.</em></h2></div><a class="button button--light" href="#formulario">Volver al formulario <span aria-hidden="true">↑</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__main"><div class="footer__brand"><a class="brand brand--footer" href="/" aria-label="Aercos, inicio"><img src="img/logo-aercos.png" alt="Aercos" width="300" height="108"></a><p>Arquitectura, ingeniería y gestión BIM para proyectos que requieren precisión.</p></div><nav class="footer__nav" aria-label="Navegación del pie de página"><a href="empresa.html">Empresa</a><a href="soluciones.html">Soluciones</a><a href="tecnologias.html">Tecnologías</a></nav><a class="footer__contact" href="contacto.html">Iniciar una conversación <span aria-hidden="true">↗</span></a></div>
+      <div class="container footer__meta"><small>© Aercos. Todos los derechos reservados.</small><small>Perú · Proyección internacional</small></div>
+    </footer>
+  </body>
+</html>
