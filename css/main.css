@@ -99,7 +99,7 @@ main > section.home-cta { background: #eef1f6 !important; color: var(--charcoal)
 .hero__footer a { align-items: center; display: flex; flex-direction: column; font-size: 0.65rem; gap: 0.4rem; letter-spacing: 0.11em; text-transform: uppercase; }
 .hero__footer i { font-size: 1rem; font-style: normal; }
 
-.intro__grid { align-items: start; display: grid; gap: 3rem; grid-template-columns: minmax(18rem, 0.8fr) minmax(0, 1fr); }.intro__aside { align-content: start; display: grid; gap: 1.25rem; }.intro__aside .section-number { margin: 0; }.intro__visual { background: url("../img/quienes-somos-home.webp") center / cover no-repeat; border-radius: 1rem; box-shadow: var(--shadow-soft); height: clamp(18rem, 23vw, 21rem); overflow: hidden; position: relative; }.intro__visual > img { display: block; height: 100%; inset: 0; object-fit: cover; position: absolute; width: 100%; }
+.intro__grid { align-items: start; display: grid; gap: 3rem; grid-template-columns: minmax(18rem, 0.8fr) minmax(0, 1fr); }.intro__aside { align-content: start; display: grid; gap: 1.8rem; }.intro__aside .section-number { margin: 0; }.intro__visual { background: url("../img/quienes-somos-home.webp") center / cover no-repeat; border-radius: 1rem; box-shadow: var(--shadow-soft); height: clamp(17rem, 20vw, 18.5rem); overflow: hidden; position: relative; }.intro__visual > img { display: block; height: 100%; inset: 0; object-fit: cover; position: absolute; width: 100%; }
 .intro__content { max-width: 48rem; }
 .intro h2, .section-heading h2, .sectors h2, .technology h2, .cta h2 { font-size: clamp(2.4rem, 5vw, 4.6rem); margin-bottom: 1.8rem; }
 .intro__content > p:not(.eyebrow), .technology__content > p:not(.eyebrow) { font-size: 1.08rem; line-height: 1.75; max-width: 42rem; }
